@@ -1,0 +1,236 @@
+.eooten-layout-select li {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+
+.eooten-layout-select li, 
+.eooten-layout-select label {
+    display: inline-block;
+}
+
+.eooten-layout-select input {
+    display: none;
+}
+
+.eooten-layout-select input:checked + img {
+    outline: 2px solid #00a0d2;
+}
+
+.eooten-alert {
+    margin-bottom: 20px;
+    padding: 15px 15px 15px 20px;
+    background: #ebf7fd;
+    color: #2d7091;
+    display: block;
+}
+
+.eooten-alert.warning {
+    background: #fffceb;
+    color: #e28327;
+}
+
+.eooten-alert.danger {
+    background: #fff1f0;
+    color: #d85030;
+}
+.eooten-alert.success {
+    background: #f2fae3;
+    color: #659f13;
+}
+
+.menu-item:not(.menu-item-depth-0) .eooten-menu-setting-columns,
+.menu-item:not(.menu-item-depth-0) .eooten-menu-setting-fullwidth,
+.menu-item:not(.menu-item-depth-0) .eooten-menu-setting-alignment {
+    display: none;
+}
+
+.menu-item.menu-item-depth-0 .eooten-menu-setting-dropdown-classic {
+    display: none;
+}
+.eooten-menu-setting-background .attachment-media-view .placeholder {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    border: 1px dashed #b4b9be;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 9px 0;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.eooten-menu-setting-background .remove_image {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: red;
+    text-decoration: none;
+    font-size: 14px;  
+}
+.eooten-menu-setting-background .remove_image:hover {
+    color: darkred;
+}
+
+/* metabox settings */
+.rwmb-meta-box .rwmb-tab-nav li {
+    border: none;
+    background: none;
+    border-bottom: 3px solid transparent;
+}
+
+.rwmb-meta-box .rwmb-tab-nav .rwmb-tab-active {
+    border: none;
+    background: none;
+    border-bottom: 3px solid #0085ba;
+    font-weight: 600;
+}
+.rwmb-meta-box .rwmb-tab-nav a {
+    padding: 15px;
+}
+
+.rwmb-meta-box .rwmb-tab-panels .rwmb-tab-panel {
+    background: none;
+    border: none;
+}
+
+
+
+/* widget control */
+.widget-control-actions div.alignleft {
+    margin-top: 5px;
+}
+
+.eooten-visiblity-control {
+    position: relative;
+    margin: 1em 0;
+    text-align: left;
+    display: flex;
+}
+.eooten-visiblity-control li {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+
+.eooten-visiblity-control li input {
+    display: none;
+}
+
+.eooten-visiblity-control li label {
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 5px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.eooten-visiblity-control li i:before,
+.eooten-visiblity-control li i:before {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    z-index: 2;
+    left: 5px;
+}
+
+.eooten-visiblity-control li.display-xlarge-field i:before {
+    content: "\f472";
+}
+.eooten-visiblity-control li.display-large-field i:before {
+    content: "\f547";
+}
+.eooten-visiblity-control li.display-medium-field i:before {
+    content: "\f471";
+}
+.eooten-visiblity-control li.display-small-field i:before {
+    content: "\f470";
+}
+
+.eooten-visiblity-control li input:checked + i:before {
+    opacity: 0.3;
+}
+.eooten-visiblity-control li input:checked + i:after {
+    content: "\f335";
+    z-index: 3;
+    color: red;
+}
+
+
+/* RTL Style */
+.rtl .eooten-visiblity-control {
+    text-align: right;
+}
+.rtl .eooten-visiblity-control li i:before,
+.rtl .eooten-visiblity-control li i:before {
+    right: 5px;
+}
+
+
+
+.eooten-admin-container, 
+.demo-import-message{
+    position: relative;
+    overflow: auto;
+    margin: 24px 0;
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    font-size: 14px;
+    line-height: 2.1em;
+}
+
+.demo-import-message-title {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.eooten-admin-container h1{
+    margin: 0 0 30px 0;
+}
+
+.demo-import-message{
+    padding: 100px;
+    text-align: center;
+}
+
+.eooten-admin-container p, .demo-import-message p{
+    font-size: 15px;
+}
+
+.success h1{
+    color: #72B521;
+}
+
+.eooten-admin-container-note{
+    background: #fff8e3;
+    padding: 20px 20px 20px 20px;
+    border-radius: 4px;
+    margin: 30px 0;
+}
+
+.button-primary.size_big {
+    font-size: 16px;
+    padding: 0 22px;
+    height: 38px;
+}
+
+.eooten-admin-container-error{
+    background: #FAE8E9;
+    color: #99151D;
+    padding: 6px 20px;
+}
+
+
+.post-type-eooten-custom-template #postimagediv {
+    display: none;
+}

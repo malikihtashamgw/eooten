@@ -1,0 +1,33 @@
+.bdt-metabox-page-settings {
+  display: inline-block;
+}
+.bdt-metabox-page-settings .page-settings-label {
+  vertical-align: baseline;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.bdt-metabox-page-settings select {
+      font-size: 14px;
+    line-height: 2;
+    color: #2c3338;
+    border-color: #8c8f94;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 0 24px 0 8px;
+    min-height: 30px;
+    max-width: 25rem;
+    -webkit-appearance: none;
+    background-size: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    min-width: 160px;
+}
+.bdt-metabox-page-settings .page-settings-desc {
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 12px;
+}
+.bdt-metabox-page-settings .page-settings-fields {
+  margin-bottom: 5px;
+}
